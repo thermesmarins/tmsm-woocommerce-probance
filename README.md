@@ -2,13 +2,13 @@ TMSM WooCommerce DialogInsight
 ==============================
 
 Requires:
-* Dialog Insight active subscription
-* Dialog Insight API access to: Projects API, Contacts API
+* Probance active subscription
+* Probance API access to: Projects API, Contacts API
 * WooCommerce 3.4+
 
 Features
 --------
-
+//TODO add radio buttons ?
 * Adds a checkbox to subscribe to newsletter on checkout page
 * Syncs data only if checkbox is checked by user
 * Checkbox is unchecked by default
