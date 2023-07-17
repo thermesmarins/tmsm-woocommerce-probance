@@ -117,12 +117,12 @@ class Tmsm_WooCommerce_Probance_API {
 
 		// If API key is not set, throw exception.
 		if ( empty( $this->username ) ) {
-			throw new Exception( 'API key must be defined to process an API request.' );
+			throw new Exception( 'Username must be defined to process an API request.' );
 		}
 
 		// If Key ID is not set, throw exception.
 		if ( empty( $this->password ) ) {
-			throw new Exception( 'Key ID must be defined to process an API request.' );
+			throw new Exception( 'Password must be defined to process an API request.' );
 		}
         // Set credentials for Basic Authentication
         $credentials = base64_encode("$this->username:$this->password");
@@ -201,12 +201,12 @@ class Tmsm_WooCommerce_Probance_API {
 				$exception = new Exception( $response['body']['title'], $response['body']['status'] );
 
 				// Add detail.
-				$exception->setDetail( $response['body']['detail'] );
+				// $exception->setDetail( $response['body']['detail'] );
 
 				// Add errors if available.
-				if ( isset( $response['body']['errors'] ) ) {
-					$exception->setErrors( $response['body']['errors'] );
-				}
+				// if ( isset( $response['body']['errors'] ) ) {
+				// 	$exception->setErrors( $response['body']['errors'] );
+				// }
 
 				throw $exception;
 
