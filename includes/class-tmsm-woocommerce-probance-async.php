@@ -160,7 +160,7 @@ if ( class_exists( 'WP_Async_Request' ) ) {
                 {
                     error_log('NEW ONE TO COME OR MIND CHANGING !!!!');
 					$serverDateTime = new DateTime('now', new DateTimeZone('Europe/Paris'));
-					$date_to_time =  $serverDateTime->format('Y-m-d\TH:i:s'.'.'.'000'.'O');
+					$date_to_time =  $serverDateTime->format('Y-m-d\TH:i:s.vO');
 					 $merge_vars['registration_date'] = $date_to_time;
                 }
 
