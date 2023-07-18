@@ -159,16 +159,9 @@ if ( class_exists( 'WP_Async_Request' ) ) {
                 if (!$member_found || $member_status != $merge_vars[ 'optin_flag'] )
                 {
                     error_log('NEW ONE TO COME OR MIND CHANGING !!!!');
-                    $serverDateTime = new DateTime('now');
-//                    $serverDateTime = new DateTime('now', new DateTimeZone('UTC'));
-//                    $serverDateTime->setTimezone(new DateTimeZone('+02:00'));
-//                    $date_to_time =  $serverDateTime->format('Y-m-d\T'.'00:00.000'.'O');
-                    $date_to_time =  $serverDateTime->format(DateTime::ATOM);
-//                    $date_to_time =  $serverDateTime->format('Y-m-d'.'T'.'H:i:s'.'.'.'000');
-//                    $date_to_time =  $serverDateTime->format('Y-m-d\TH:s'.'.000'.'O');
-
-                    error_log($date_to_time);
-                    $merge_vars['registration_date'] = $date_to_time;
+					$serverDateTime = new DateTime('now', new DateTimeZone('Europe/Paris'));
+					$date_to_time =  $serverDateTime->format('Y-m-d\TH:i:s'.'.'.'000'.'O');
+					 $merge_vars['registration_date'] = $date_to_time;
                 }
 
                 $params = $merge_vars;
