@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: TMSM WooCommerce DialogInsight\n"
+"Project-Id-Version: TMSM WooCommerce Probance\n"
 "Report-Msgid-Bugs-To: https://remicorson.com\n"
 "POT-Creation-Date: 2018-10-31 08:58+0100\n"
 "PO-Revision-Date: 2018-10-31 09:34+0100\n"
@@ -21,62 +21,62 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-async.php:137
+#: includes/class-tmsm-woocommerce-Probance-async.php:137
 msgctxt "birthday date format conversion"
 msgid "m/d/Y"
 msgstr "d/m/Y"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:15
-msgid "Tmsm WooCommerce DialogInsight"
-msgstr "Tmsm WooCommerce DialogInsight"
+#: includes/class-tmsm-woocommerce-Probance-integration.php:15
+msgid "Tmsm WooCommerce Probance"
+msgstr "Tmsm WooCommerce Probance"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:16
-msgid "Allow buyers to optin for a Dialog Insight list"
-msgstr "Permettre aux acheteurs de s’inscrire à une liste Dialog Insight"
+#: includes/class-tmsm-woocommerce-Probance-integration.php:16
+msgid "Allow buyers to optin for a Probance list"
+msgstr "Permettre aux acheteurs de s’inscrire à une liste Probance"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:41
-msgid "API Key"
-msgstr "Clé API"
+#: includes/class-tmsm-woocommerce-Probance-integration.php:41
+msgid "Username"
+msgstr "Nom d'utilisateur"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:43
-msgid "Enter your API Key"
-msgstr "Saisir la clé API"
+#: includes/class-tmsm-woocommerce-Probance-integration.php:43
+msgid "Enter your Username"
+msgstr "Saisir le Nom d'utilisateur"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:49
-msgid "Key ID"
-msgstr "ID de clé"
+#: includes/class-tmsm-woocommerce-Probance-integration.php:49
+msgid "Password"
+msgstr "mot de passe"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:51
-msgid "Enter your Key ID"
-msgstr "Saisir l’ID de clé"
+#: includes/class-tmsm-woocommerce-Probance-integration.php:51
+msgid "Enter your Password"
+msgstr "Saisir le mot de passe"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:57
+#: includes/class-tmsm-woocommerce-Probance-integration.php:57
 msgid "Project ID"
 msgstr "ID de projet"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:59
+#: includes/class-tmsm-woocommerce-Probance-integration.php:59
 msgid "Enter your project ID"
 msgstr "Saisir l’ID de projet"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:65
+#: includes/class-tmsm-woocommerce-Probance-integration.php:65
 msgid "Optin Field"
 msgstr "Abonnement"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:67
+#: includes/class-tmsm-woocommerce-Probance-integration.php:67
 msgid "Enter your optin field"
 msgstr "Saisir l’abonnemet"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:73
+#: includes/class-tmsm-woocommerce-Probance-integration.php:73
 msgid "Checkbox Label"
 msgstr "Libellé de la case à cocher"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:76
-#: includes/class-tmsm-woocommerce-dialoginsight.php:47
-#: tmsm-woocommerce-dialoginsight.php:74
+#: includes/class-tmsm-woocommerce-Probance-integration.php:76
+#: includes/class-tmsm-woocommerce-Probance.php:47
+#: tmsm-woocommerce-Probance.php:74
 msgid "Subscribe to our newsletter"
 msgstr "Je m’inscris à la newsletter"
 
-#: includes/class-tmsm-woocommerce-dialoginsight-integration.php:80
+#: includes/class-tmsm-woocommerce-Probance-integration.php:80
 msgid "Checkbox Action"
 msgstr "Action pour la case à cocher"
 
@@ -110,7 +110,7 @@ msgstr "Action pour la case à cocher"
 #~ msgid "Add Tracking Number"
 #~ msgstr "Ajouter un numéro de suivi"
 
-#~ msgid "Tmsm WooCommerce DialogInsight Number:"
+#~ msgid "Tmsm WooCommerce Probance Number:"
 #~ msgstr "Numéro de suivi La Poste :"
 
 #~ msgid "Date shipped:"
@@ -142,8 +142,8 @@ msgstr "Action pour la case à cocher"
 #~ msgid "Tracking Number"
 #~ msgstr "Numéro de suivi"
 
-#~ msgid "WooCommerce Tmsm WooCommerce DialogInsight"
-#~ msgstr "WooCommerce Tmsm WooCommerce DialogInsight"
+#~ msgid "WooCommerce Tmsm WooCommerce Probance"
+#~ msgstr "WooCommerce Tmsm WooCommerce Probance"
 
 #~ msgid "http://www.remicorson.com"
 #~ msgstr "http://www.remicorson.com"
