@@ -69,20 +69,20 @@ class Tmsm_WooCommerce_Probance_Integration extends WC_Integration {
 //				'default'           => ''
 //			),
 
-			'checkbox_label' => array(
-				'title'             => __( 'Checkbox Label', 'tmsm-woocommerce-probance' ),
-				'type'              => 'text',
-				'desc_tip'          => true,
-				'default'           => __( 'Subscribe to our newsletter', 'tmsm-woocommerce-probance' )
-			),
+			// 'checkbox_label' => array(
+			// 	'title'             => __( 'Checkbox Label', 'tmsm-woocommerce-probance' ),
+			// 	'type'              => 'text',
+			// 	'desc_tip'          => true,
+			// 	'default'           => __( 'Subscribe to our newsletter', 'tmsm-woocommerce-probance' )
+			// ),
 
-			'checkbox_action' => array(
-				'title'             => __( 'Checkbox Action', 'tmsm-woocommerce-probance' ),
-				'type'              => 'text',
-				'desc_tip'          => true,
-				'description'       => __( 'Action that display the checkbox', 'tmsm-woocommerce-probance' ),
-				'default'           => 'woocommerce_after_checkout_billing_form'
-			),
+			// 'checkbox_action' => array(
+			// 	'title'             => __( 'Checkbox Action', 'tmsm-woocommerce-probance' ),
+			// 	'type'              => 'text',
+			// 	'desc_tip'          => true,
+			// 	'description'       => __( 'Action that display the checkbox', 'tmsm-woocommerce-probance' ),
+			// 	'default'           => 'woocommerce_after_checkout_billing_form'
+			// ),
 
 
 		);
