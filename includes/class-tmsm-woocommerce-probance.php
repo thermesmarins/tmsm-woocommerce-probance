@@ -44,8 +44,8 @@ class Tmsm_WooCommerce_Probance_Actions {
 	public function apply_checkbox(){
         //TODO change here for radio buttons
 		$integration = new Tmsm_WooCommerce_Probance_Integration();
-        $radio_label_yes = esc_html($integration->get_option( 'radio_label_yes', __( 'Yes', 'tmsm-woocommerce-probance' ) ));
-        $radio_label_no = esc_html($integration->get_option( 'radio_label_no', __( 'No', 'tmsm-woocommerce-probance' ) ));
+        $radio_label_yes = esc_html($integration->get_option( 'radio_label_yes', __( 'Oui', 'tmsm-woocommerce-probance' ) ));
+        $radio_label_no = esc_html($integration->get_option( 'radio_label_no', __( 'Non', 'tmsm-woocommerce-probance' ) ));
         $radio = '<p> Souscrire à la newsletter </p>';
 		$radio .= '<p class="form-row form-row-wide tmsm-woocommerce-probance-optin">';
 		$radio .= '<label for="tmsm_woocommerce_probance_optin" class="woocommerce-form__label woocommerce-form__label-for-radio inline">';
