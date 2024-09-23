@@ -9,7 +9,7 @@
  * Plugin Name:       TMSM WooCommerce Probance
  * Plugin URI:        https://github.com/thermesmarins/tmsm-woocommerce-probance
  * Description:       Probance integration in WooCommerce
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Arnaud Flament
  * Author URI:        https://github.com/nicomollet
  * License:           GNU General Public License v3.0
@@ -94,7 +94,6 @@ if ( ! class_exists( 'Tmsm_WooCommerce_Probance' ) ) {
 
 			include_once 'includes/class-tmsm-woocommerce-probance-async.php';
 			if ( class_exists( 'Tmsm_WooCommerce_Probance_Async' ) ) {
-            error_log(print_r('DANS LE IF !!! HANDLER'));
 				$this->async = new Tmsm_WooCommerce_Probance_Async();
 				$integration = new Tmsm_WooCommerce_Probance_Integration();
 				$this->async->options = $integration;

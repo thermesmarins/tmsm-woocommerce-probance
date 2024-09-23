@@ -1,3 +1,6 @@
+### 1.0.2: September 23th, 2024
+* Fix deprecated error for php 8.2
+
 ### 1.0.1: October 31st, 2018
 * Remove rgblank function dependency (Gravity Forms is not required)
 
