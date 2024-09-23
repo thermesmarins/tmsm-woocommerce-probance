@@ -25,7 +25,8 @@
  * Tmsm_WooCommerce_Probance class
  */
 if ( ! class_exists( 'Tmsm_WooCommerce_Probance' ) ) {
-
+	
+	#[AllowDynamicProperties]
 	class Tmsm_WooCommerce_Probance {
 
 		/**
@@ -64,7 +65,6 @@ if ( ! class_exists( 'Tmsm_WooCommerce_Probance' ) ) {
 		 */
 		public function init() {
 
-            error_log('%%% PLUGIN LOAD %%%%');
 
 			if ( class_exists( 'WC_Integration' ) ) {
 				include_once 'includes/class-tmsm-woocommerce-probance-integration.php';
@@ -80,7 +80,6 @@ if ( ! class_exists( 'Tmsm_WooCommerce_Probance' ) ) {
 				add_action( 'woocommerce_checkout_order_processed', array( $this, 'process_handler' ), 3, 200 );
 
 			}
-			error_log('%%% PLUGIN OFF %%%%');
 		}
 
 

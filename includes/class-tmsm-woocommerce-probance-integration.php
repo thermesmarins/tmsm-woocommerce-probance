@@ -1,7 +1,7 @@
 <?php
 	
 if ( ! class_exists( 'Tmsm_WooCommerce_Probance_Integration' ) ) :
-
+	#[AllowDynamicProperties]
 class Tmsm_WooCommerce_Probance_Integration extends WC_Integration {
 	
 	/**
